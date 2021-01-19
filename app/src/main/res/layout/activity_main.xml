@@ -18,51 +18,70 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:fontFamily="casual"
             android:onClick="Monday"
-            android:text="@string/Monday" />
+            android:text="@string/Monday"
+            app:backgroundTint="#FA8CB0" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:fontFamily="casual"
             android:onClick="Tuesday"
-            android:text="@string/Tuesday" />
+            android:text="@string/Tuesday"
+            app:backgroundTint="#A0FAA3" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:fontFamily="casual"
             android:onClick="Wednesday"
-            android:text="@string/Wednesday" />
+            android:text="@string/Wednesday"
+            app:backgroundTint="#84EEFB" />
 
         <Button
             android:id="@+id/button6"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:fontFamily="casual"
             android:onClick="Thursday"
-            android:text="@string/Thursday" />
+            android:text="@string/Thursday"
+            app:backgroundTint="#F8E96B" />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:fontFamily="casual"
             android:onClick="Friday"
-            android:text="@string/Friday" />
+            android:text="@string/Friday"
+            app:backgroundTint="#FB764C" />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:fontFamily="casual"
             android:onClick="Saturday"
-            android:text="@string/Saturday" />
+            android:text="@string/Saturday"
+            app:backgroundTint="#BFA0F6" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
+        style="@style/Theme.Time_table"
         android:layout_width="0dp"
         android:layout_height="100dp"
+        android:background="#768AF6"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:includeFontPadding="false"
         android:text="@string/app_name"
+        android:textColor="@color/black"
         android:textSize="50sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

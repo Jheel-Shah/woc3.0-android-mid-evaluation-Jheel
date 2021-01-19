@@ -1,10 +1,24 @@
 <resources>
-    <string name="app_name">time_table</string>
+    <string name="app_name">Time Table</string>
     <string name="Monday">Monday</string>
     <string name="Tuesday">Tuesday</string>
     <string name="Wednesday">Wednesday</string>
     <string name="Thursday">Thursday</string>
     <string name="Friday">Friday</string>
     <string name="Saturday">Saturday</string>
-
+    <string name="Lectures">Lectures</string>
+    <string name="Labs_Tuts">Labs/Tuts</string>
+    <string name="course1">IT215 \n Systems Software \n JP/SB</string>
+    <string name="course2">EL213 \n Analog Circuits \n RPM/TKM</string>
+    <string name="course3">SC209 \n Environmental Studies \n RG</string>
+    <string name="course4">CT215 \n Analog Communication \n DKG/SG</string>
+    <string name="course5">SC221 \n Engineered Materials \n AKR</string>
+    <string name="course6">SC222 \n Probability, Statistics and IT \n GG/MS</string>
+    <string name="course7">CS201 \n Introductory Computational Physics \n AR</string>
+    <string name="time2">10:15 \n 11:30</string>
+    <string name="time1">8:30 \n 9:45</string>
+    <string name="time3">12:00 \n 1:15</string>
+    <string name="time4">2:00 \n 4:00</string>
+    <string name="time5">2:00 \n 3:00</string>
+    <string name="time6">9:00 \n 12:00</string>
 </resources>
